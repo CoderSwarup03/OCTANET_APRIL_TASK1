@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>iMovie Landing Page</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo">iMovie</a>
+        <ul class="nav">
+            <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#">Adult</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Trends</a></li>
+            <li><a href="">My list</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <!-- Banner Section -->
+    <div class="banner">
+        <div class="content the-little-mermaid active">
+            <img src="./images/the-little-mermaid-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2024</span> <span><i>15+</i></span> <span>2h 15min</span> <span>Romance</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam fugiat aperiam voluptas
+                quae doloremque ipsa eum esse, provident eligendi optio nisi excepturi nesciunt non, dolor repellendus
+                quod iusto? Laboriosam
+            </p>
+            <div class="button">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+        <div class="content bg-65">
+            <img 
+                class="movie-title"
+                src="/images/the-65-title.png" 
+                alt="Movie Name"
+            />
+            <h4>
+                <span>2024</span> <span><i>24+</i></span> <span>2h 32min</span> <span>Forest</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam fugiat aperiam voluptas
+                quae doloremque ipsa eum esse, provident eligendi optio nisi excepturi nesciunt non, dolor repellendus
+                quod iusto? Laboriosam
+            </p>
+            <div class="button">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-covenant">
+            <img 
+                class="movie-title"
+                src="/images/the-covenant-title.png" 
+                alt="Movie Name"
+            />
+            <h4>
+                <span>2024</span> <span><i>10+</i></span> <span>3h 15min</span> <span>War/Action</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam fugiat aperiam voluptas
+                quae doloremque ipsa eum esse, provident eligendi optio nisi excepturi nesciunt non, dolor repellendus
+                quod iusto? Laboriosam
+            </p>
+            <div class="button">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-black-demon">
+            <img 
+                class="movie-title"
+                src="/images/the-black-demon-title.png" 
+                alt="Movie Name"
+            />
+            <h4>
+                <span>2024</span> <span><i>18+</i></span> <span>2h 10min</span> <span>Action</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam fugiat aperiam voluptas
+                quae doloremque ipsa eum esse, provident eligendi optio nisi excepturi nesciunt non, dolor repellendus
+                quod iusto? Laboriosam
+            </p>
+            <div class="button">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+        <div class="content the-tank">
+            <img 
+                class="movie-title"
+                src="/images/the-tank-title.png" 
+                alt="Movie Name"
+            />
+            <h4>
+                <span>2024</span> <span><i>12+</i></span> <span>1h 35min</span> <span>Haror</span>
+            </h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam fugiat aperiam voluptas
+                quae doloremque ipsa eum esse, provident eligendi optio nisi excepturi nesciunt non, dolor repellendus
+                quod iusto? Laboriosam
+            </p>
+            <div class="button">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item"
+                onClick="changeBg('bg-little-mermaid.jpg','the-little-mermaid');"
+                >
+                    <img src="/images/movies/the-little-mermaid.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onClick="changeBg('bg-65.jpeg','bg-65');">
+                    <img src="/images/movies/65.jpg" alt="">
+                </div>
+                <div class="carousel-item"
+                onClick="changeBg('bg-the-covenant.jpeg','the-covenant');"
+                >
+                    <img src="/images/movies/the-covenant.jpg" alt="">
+                </div>
+                <div class="carousel-item"
+                onClick="changeBg('bg-the-black-demon.jpeg','the-black-demon');"
+                >
+                    <img src="/images/movies/the-black-demon.jpg" alt="">
+                </div>
+                <div class="carousel-item"
+                onClick="changeBg('bg-the-tank.jpeg','the-tank');"
+                >
+                    <img src="/images/movies/the-tank.jpeg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="play" onClick="toggleVideo();"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Tailer</a>
+        <ul class="sci">
+            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="trailer">
+        <video src="/assects/TailerMovie.mp4"
+        muted
+        controls="true"
+        autoplay="true"
+        ></video>
+        <img src="/images/close.png" alt="" class="close"
+        onClick="toggleVideo();"
+        />
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scrtipt.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>
